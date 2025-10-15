@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/marcuslinhares/curriculum-gitops
-    path: dev/app-of-apps
+    path: dev/
     targetRevision: HEAD
     directory:
       recurse: true
