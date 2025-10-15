@@ -17,6 +17,6 @@ spec:
         - name: ghcr-secret
       containers:
         - name: backend-app
-          image: ghcr.io/marcuslinhares/curriculum-api:latest
+          image: ghcr.io/marcuslinhares/curriculum-api:c60bd87681082198f898d4da92ad46b98b1f1eda
           ports:
             - containerPort: 8080
